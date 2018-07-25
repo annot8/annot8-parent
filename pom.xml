@@ -57,6 +57,7 @@
 
     <lombok.version>1.18.0</lombok.version>
     <guava.version>25.1-jre</guava.version>
+    <slf4j.version>1.7.25</slf4j.version>
 
     <junit.version>5.2.0</junit.version>
     <mockito.version>2.19.1</mockito.version>
