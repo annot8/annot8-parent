@@ -58,6 +58,7 @@
     <lombok.version>1.18.0</lombok.version>
     <guava.version>25.1-jre</guava.version>
     <slf4j.version>1.7.25</slf4j.version>
+    <micrometer.version>1.0.6</micrometer.version>
 
     <junit.version>5.2.0</junit.version>
     <mockito.version>2.19.1</mockito.version>
@@ -169,6 +170,11 @@
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
         <version>${slf4j.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>io.micrometer</groupId>
+          <artifactId>micrometer-core</artifactId>
+          <version>${micrometer.version}</version>
       </dependency>
 
       <!-- Testing -->
