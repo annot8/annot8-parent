@@ -67,7 +67,8 @@
 
     <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
     <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-    <junit-platform-surefire-provider.version.version>1.2.0</junit-platform-surefire-provider.version.version>
+    <junit-platform-surefire-provider.version>1.2.0</junit-platform-surefire-provider.version>
+    <spotless.version>1.14.0</spotless.version>
   </properties>
 
   <build>
@@ -117,6 +118,25 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <version>${spotless.version}</version>
+
+        <configuration>
+          <java>
+            <licenseHeader>
+              <content>/* Annot8 (annot8.io). Licensed under Apache-2.0. */</content>
+            </licenseHeader>
+            <googleJavaFormat />
+            <removeUnusedImports/>
+            <importOrder>
+              <order>java,javax,org,com,io.annot8,</order>
+            </importOrder>
+          </java>
+        </configuration>
+
       </plugin>
     </plugins>
   </build>
@@ -208,5 +228,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
 
 </project>
