@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.annot8</groupId>
-  <artifactId>parent</artifactId>
+  <artifactId>annot8-parent</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -57,7 +57,7 @@
     <annot8-common.version>0.1-SNAPSHOT</annot8-common.version>
     <annot8-components.version>0.1-SNAPSHOT</annot8-components.version>
     <annot8-conventions.version>0.1-SNAPSHOT</annot8-conventions.version>
-    <annot8-defaultimpl.version>0.1-SNAPSHOT</annot8-defaultimpl.version>
+    <annot8-default-impl.version>0.1-SNAPSHOT</annot8-default-impl.version>
     <annot8-testing.version>0.1-SNAPSHOT</annot8-testing.version>
 
     <lombok.version>1.18.0</lombok.version>
@@ -151,32 +151,37 @@
       <!-- Annot8 -->
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>core</artifactId>
+        <artifactId>annot8-core</artifactId>
         <version>${annot8-core.version}</version>
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>common</artifactId>
+        <artifactId>annot8-common-components</artifactId>
         <version>${annot8-common.version}</version>
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>conventions</artifactId>
+        <artifactId>annot8-common-implementations</artifactId>
+        <version>${annot8-common.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.annot8</groupId>
+        <artifactId>annot8-conventions</artifactId>
         <version>${annot8-conventions.version}</version>
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>components</artifactId>
+        <artifactId>annot8-components</artifactId>
         <version>${annot8-components.version}</version>
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>default-impl</artifactId>
-        <version>${annot8-defaultimpl.version}</version>
+        <artifactId>annot8-default-impl</artifactId>
+        <version>${annot8-default-impl.version}</version>
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>testing</artifactId>
+        <artifactId>annot8-test-impl</artifactId>
         <version>${annot8-testing.version}</version>
       </dependency>
 
