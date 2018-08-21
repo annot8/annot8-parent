@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -134,7 +134,7 @@
             <licenseHeader>
               <content>/* Annot8 (annot8.io). Licensed under Apache-2.0. */</content>
             </licenseHeader>
-            <googleJavaFormat />
+            <googleJavaFormat/>
             <removeUnusedImports/>
             <importOrder>
               <order>java,javax,org,com,io.annot8,</order>
@@ -222,9 +222,9 @@
         <version>${slf4j.version}</version>
       </dependency>
       <dependency>
-          <groupId>io.micrometer</groupId>
-          <artifactId>micrometer-core</artifactId>
-          <version>${micrometer.version}</version>
+        <groupId>io.micrometer</groupId>
+        <artifactId>micrometer-core</artifactId>
+        <version>${micrometer.version}</version>
       </dependency>
 
       <!-- Testing -->
