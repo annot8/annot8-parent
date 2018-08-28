@@ -64,6 +64,9 @@
     <guava.version>25.1-jre</guava.version>
     <slf4j.version>1.7.25</slf4j.version>
     <micrometer.version>1.0.6</micrometer.version>
+    <jackson-core.version>2.9.4</jackson-core.version>
+    <jackson-databind.version>2.9.6</jackson-databind.version>
+    <classgraph.version>4.1.2</classgraph.version>
 
     <junit.version>5.2.0</junit.version>
     <mockito.version>2.19.1</mockito.version>
@@ -166,6 +169,11 @@
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
+        <artifactId>annot8-common-jackson-serialisation</artifactId>
+        <version>${annot8-common.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.annot8</groupId>
         <artifactId>annot8-common-implementations</artifactId>
         <version>${annot8-common.version}</version>
       </dependency>
@@ -257,6 +265,21 @@
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-core</artifactId>
         <version>${micrometer.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${jackson-core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson-databind.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.github.classgraph</groupId>
+        <artifactId>classgraph</artifactId>
+        <version>4.1.2</version>
       </dependency>
 
       <!-- Testing -->
