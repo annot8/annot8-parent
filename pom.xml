@@ -228,6 +228,13 @@
         <groupId>io.annot8</groupId>
         <artifactId>annot8-test-impl</artifactId>
         <version>${annot8-testing.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.annot8</groupId>
+        <artifactId>annot8-impl-tck</artifactId>
+        <version>${annot8-testing.version}</version>
+        <scope>test</scope>
       </dependency>
 
       <!-- Utilities -->
