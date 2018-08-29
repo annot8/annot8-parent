@@ -64,8 +64,9 @@
     <guava.version>25.1-jre</guava.version>
     <slf4j.version>1.7.25</slf4j.version>
     <micrometer.version>1.0.6</micrometer.version>
-    <jackson-core.version>2.9.4</jackson-core.version>
+    <jackson-core.version>2.9.6</jackson-core.version>
     <jackson-databind.version>2.9.6</jackson-databind.version>
+    <jackson-annotations.version>2.9.6</jackson-annotations.version>
     <classgraph.version>4.1.2</classgraph.version>
 
     <junit.version>5.2.0</junit.version>
@@ -135,10 +136,11 @@
         <configuration>
           <java>
             <licenseHeader>
-              <content>/* Annot8 (annot8.io). Licensed under Apache-2.0. */</content>
+              <content>/* Annot8 (annot8.io). Licensed under Apache-2.0.
+                */</content>
             </licenseHeader>
-            <googleJavaFormat/>
-            <removeUnusedImports/>
+            <googleJavaFormat />
+            <removeUnusedImports />
             <importOrder>
               <order>java,javax,org,com,io.annot8,</order>
             </importOrder>
@@ -277,9 +279,14 @@
         <version>${jackson-databind.version}</version>
       </dependency>
       <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>${jackson-annotations.version}</version>
+      </dependency>
+      <dependency>
         <groupId>io.github.classgraph</groupId>
         <artifactId>classgraph</artifactId>
-        <version>4.1.2</version>
+        <version>${classgraph.version}</version>
       </dependency>
 
       <!-- Testing -->
