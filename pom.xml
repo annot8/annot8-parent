@@ -6,7 +6,7 @@
 
   <groupId>io.annot8</groupId>
   <artifactId>annot8-parent</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Annot8 Parent</name>
@@ -59,12 +59,14 @@
     <maven.compiler.target>9</maven.compiler.target>
 
     <!-- Annot8 versions -->
-    <annot8-core.version>0.1.0</annot8-core.version>
-    <annot8-common.version>0.1.0</annot8-common.version>
-    <annot8-components.version>0.1.0</annot8-components.version>
-    <annot8-conventions.version>0.1.0</annot8-conventions.version>
-    <annot8-default-impl.version>0.1.0</annot8-default-impl.version>
-    <annot8-testing.version>0.1.0</annot8-testing.version>
+    <!-- Though we separate this into properties, they are versioned in sync at the moment -->
+    <annot8.version>0.2.0-SNAPSHOT</annot8.version>
+    <annot8-core.version>${annot8.version}</annot8-core.version>
+    <annot8-common.version>${annot8.version}</annot8-common.version>
+    <annot8-components.version>${annot8.version}</annot8-components.version>
+    <annot8-conventions.version>${annot8.version}</annot8-conventions.version>
+    <annot8-default-impl.version>${annot8.version}</annot8-default-impl.version>
+    <annot8-testing.version>${annot8.version}</annot8-testing.version>
 
     <!-- Core utitities and helpers -->
     <lombok.version>1.18.2</lombok.version>
