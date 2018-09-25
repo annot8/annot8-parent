@@ -184,8 +184,7 @@
         <configuration>
           <java>
             <licenseHeader>
-              <content>/* Annot8 (annot8.io). Licensed under Apache-2.0.
-                */</content>
+              <content>/* Annot8 (annot8.io) - Licensed under Apache-2.0. */</content>
             </licenseHeader>
             <googleJavaFormat />
             <removeUnusedImports />
