@@ -454,6 +454,9 @@
                 </goals>
               </execution>
             </executions>
+            <configuration>
+              <additionalJOptions>-html5</additionalJOptions>
+            </configuration>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
