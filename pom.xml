@@ -251,11 +251,6 @@
       </dependency>
       <dependency>
         <groupId>io.annot8</groupId>
-        <artifactId>annot8-common-pipelines</artifactId>
-        <version>${annot8-common.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.annot8</groupId>
         <artifactId>annot8-conventions</artifactId>
         <version>${annot8-conventions.version}</version>
       </dependency>
