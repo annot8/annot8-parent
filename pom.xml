@@ -60,7 +60,7 @@
 
     <!-- Annot8 versions -->
     <!-- Though we separate this into properties, they are versioned in sync at the moment -->
-    <annot8.version>0.2.0-SNAPSHOT</annot8.version>
+    <annot8.version>${project.version}</annot8.version>
     <annot8-core.version>${annot8.version}</annot8-core.version>
     <annot8-common.version>${annot8.version}</annot8-common.version>
     <annot8-components.version>${annot8.version}</annot8-components.version>
