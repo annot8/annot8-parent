@@ -74,9 +74,9 @@
     <guava.version>27.0.1-jre</guava.version>
     <slf4j.version>1.7.25</slf4j.version>
     <micrometer.version>1.1.1</micrometer.version>
-    <jackson-core.version>2.9.8</jackson-core.version>
-    <jackson-databind.version>2.9.8</jackson-databind.version>
-    <jackson-annotations.version>2.9.8</jackson-annotations.version>
+    <jackson-core.version>2.9.9</jackson-core.version>
+    <jackson-databind.version>2.9.9</jackson-databind.version>
+    <jackson-annotations.version>2.9.9</jackson-annotations.version>
     <classgraph.version>4.6.8</classgraph.version>
 
     <!-- Testing -->
