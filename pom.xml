@@ -75,7 +75,7 @@
     <slf4j.version>1.7.25</slf4j.version>
     <micrometer.version>1.1.1</micrometer.version>
     <jackson-core.version>2.9.9</jackson-core.version>
-    <jackson-databind.version>2.9.9</jackson-databind.version>
+    <jackson-databind.version>2.9.9.3</jackson-databind.version>
     <jackson-annotations.version>2.9.9</jackson-annotations.version>
     <classgraph.version>4.6.8</classgraph.version>
 
